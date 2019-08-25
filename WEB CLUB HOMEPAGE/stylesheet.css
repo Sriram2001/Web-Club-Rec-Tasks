@@ -1,0 +1,117 @@
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #D0D0C1;
+}
+
+.navbar-nav > li{
+    font-size: 18px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+
+.logo-img{
+    height: 40px;
+}
+
+.el1{
+    height:55vh; 
+    width:100%;
+    background-size: cover;
+    background-image: url(img/bg.jpg);
+}
+
+.el1-1{
+    display: block;
+    margin-top:17vh;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px #0000;
+    height: 32vh;
+
+}
+
+.el1-2{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:800; 
+    font-size: 45px; 
+    color: rgb(255, 123, 0);
+}
+
+.el1-3{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight:800; 
+    /* font-family: 'Roboto', sans-serif; */
+    font-size:25px;
+    color:rgb(238, 203, 139);
+}
+
+.el2{
+    height:45vh;
+    width: 100%;
+    background-color: rgb(255, 123, 0);
+}
+
+.i1{
+    height:16vh ;
+}
+
+.a{
+    background-image: url(img/abc.jpg);
+    background-size:cover; 
+    height: 100vh;
+}
+
+.b{
+    font-family: 'Livvic', sans-serif; 
+    font-size: 25px;
+    display: block;
+    margin:20px 30px;  
+}
+
+.c{
+    margin:70px 30px 10px 20px;
+    font-size: 40px;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.events{
+    height: 100vh;
+}
+
+.events h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+    margin:150px 0 30px 20px;
+}
+
+.classPad{
+    margin:0px;
+    padding:3px;
+}
+
+.classPad p{
+    /* font-family: 'Livvic', sans-serif;  */
+    font-size: 17px;
+    margin:30px 20px 20px;
+}
+
+.classPad h3{
+    font-family: 'Fjalla One', sans-serif;
+    /* font-size:20px; */
+    margin:30px 20px 20px;
+}
+
+.classPad h5{
+    font-family: 'Fjalla One', sans-serif;
+    margin-left:20px;
+    vertical-align: bottom;
+}
+
+.footer{
+    height:100px;
+    background-color: rgb(255, 123, 0);
+}
+
+.row1{
+    margin-top:10px;
+}
