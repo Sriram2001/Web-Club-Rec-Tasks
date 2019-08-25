@@ -28,7 +28,7 @@
   <li>https://www.glamsham.com/</li>
   <li>http://www.lyricsoff.com/</li>
   <li>http://www.lyricsmint.com/</li>
-  
+  </ul>
   You are free to customise your Custom Search Engine by prioritising any of your preferred keywords, excluding any web pages or turning on the 'Safe Search' feature.
 
   NOTE: Please don't turn on the 'Search the entire Web' feature as it is currently not possible to scrape from any random sites appearing in the search results using the pyLicics library.
@@ -41,6 +41,6 @@
   
   Create a new channel in slack and add the bot to it
   
-  Now whenever you type @<Bot name>lyric: <songname>, the bot will display the lyrics of the song
+  Now whenever you type @Bot_namelyric: song_name, the bot will display the lyrics of the song
   
   
