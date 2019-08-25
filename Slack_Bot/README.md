@@ -1,7 +1,7 @@
 <h1>Slack Bot To Get Lyrics Of Songs</h1>
 
 <h2>Resources used:</h2>
-  <a href="https://www.fullstackpython.com/blog/build-first-slack-bot-python.html">https://www.fullstackpython.com/blog/build-first-slack-bot-python.html</a>
+  <a href="https://www.fullstackpython.com/blog/build-first-slack-bot-python.html">https://www.fullstackpython.com/blog/build-first-slack-bot-python.html</a><br>
   <a href="https://github.com/Techcatchers/PyLyrics-Extractor">https://github.com/Techcatchers/PyLyrics-Extractor</a>
  
 <h2>Instructions for use:</h2>
