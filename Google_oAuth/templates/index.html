@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Archivo+Black);
+
+body { 
+  background: url(static/joanna-kosinska-1_CMoFsPfso-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#uniform {
+  display:block;
+  text-align: right;
+  background: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  font-size: 10px;
+  right: 0;
+  left: 0;
+}
+#uniform a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 40px;
+  margin: 0 10px;
+}
+#uniform a:hover {
+  background: white;
+  color: black;
+}
+
+a.button {
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  border: 3px solid rgba(255,255,255,.6);
+  font-family: sans-serif;
+  font-weight: normal;
+  padding: 10px;
+  /* width: 135px; */
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.76);
+  text-decoration: none;
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.144);
+  letter-spacing: 1px;
+  -webkit-transition: all 300ms;
+  float: left;
+}
+a.button:hover {
+  background: rgba(0,0,0,.5);
+  color: white;
+  border-color: rgba(0,0,0,1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0), 0 1px 1px rgba(0,0,0,.2);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+a.button:active {
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.2);
+}
+
+#center {
+  width: 694px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 50px;
+  padding: 0;
+  height: 43px;
+}
+    </style>
+</head>
+<body>
+    {% if flag %}
+    <div class="container">
+    <h2>Hello, {{usr_name}}</h2>
+    <p>You're logged in! <br>Email: {{usr_email}}</p>
+    <p>Google Profile Picture:</p>
+    <img class="img-responsive" src="{{usr_pic}}" alt="Google profile pic" style="height:40vh;"></img>
+    <a class="button" href="/logout">Logout</a>
+    </div>
+    {%else%}
+    <div id="center">
+        <a class="button" style="margin-left:17vw;" href="/login">Login with Google</a>
+    </div>
+
+    
+        
+    {% endif%}
+</body>
+</html>
