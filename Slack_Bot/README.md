@@ -21,13 +21,13 @@
   Create your new Custom Search Engine here to get your Engine ID: https://cse.google.com/cse/create/new
 
   Add any of the following or all websites as per your choice in your Custom Search Engine:
-
-  https://genius.com/
-  http://www.lyricsted.com/
-  http://www.lyricsbell.com/
-  https://www.glamsham.com/
-  http://www.lyricsoff.com/
-  http://www.lyricsmint.com/
+  <ul>
+  <li>https://genius.com/</li>
+  <li>http://www.lyricsted.com/</li>
+  <li>http://www.lyricsbell.com/</li>
+  <li>https://www.glamsham.com/</li>
+  <li>http://www.lyricsoff.com/</li>
+  <li>http://www.lyricsmint.com/</li>
   
   You are free to customise your Custom Search Engine by prioritising any of your preferred keywords, excluding any web pages or turning on the 'Safe Search' feature.
 
